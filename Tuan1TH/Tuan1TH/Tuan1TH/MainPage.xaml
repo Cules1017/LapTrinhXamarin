@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="IE307.M12.CNCL"
+             x:Class="Tuan1TH.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Nguyễn Hiếu Nghĩa - 19521898 - Tuần 1" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Button Margin="10" Text="Bài 1" Clicked="Btn_Bai1" CornerRadius="10" BackgroundColor="#2196F3"></Button>
+        <Button Margin="10" Text="Bài 2" Clicked="Btn_Bai2" CornerRadius="10" BackgroundColor="#2196F3"></Button>
+        <Button Margin="10" Text="Bài 3" Clicked="Btn_Bai3" CornerRadius="10" BackgroundColor="#2196F3"></Button>
+        <Button Margin="10" Text="Bài 4" Clicked="Btn_Bai4" CornerRadius="10" BackgroundColor="#2196F3"></Button>
+        <Button Margin="10" Text="Bài 5" Clicked="Btn_Bai5"  CornerRadius="10" BackgroundColor="#2196F3"></Button>
+    </StackLayout>
+
+</ContentPage>
