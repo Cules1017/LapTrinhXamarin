@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-
+[assembly: ExportFont("DS1DIGI.TTF", Alias = "MyAwesomeCustomFont")]
 namespace Tuan1TH
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Bai5 : ContentPage
     {
-        Label Txt = new Label();
+        Label Txt = new Label() { FontFamily = "MyAwesomeCustomFont" ,Margin=20 };
+    
         
         void render()
         {
@@ -24,10 +25,14 @@ namespace Tuan1TH
             {
                 screenca.ColumnDefinitions.Add(new ColumnDefinition());
             }
-
-
+            
+            Txt.FontSize = 50;
+            Txt.VerticalTextAlignment = TextAlignment.Center;
+            Txt.HorizontalTextAlignment = TextAlignment.End;
             screenca.Children.Add(Txt, 0, 0);
             Grid.SetColumnSpan(Txt, 4);
+            
+            Txt.Text="0";
             string[] listtxtbtn = new string[] {"C","+/-","%","DIV","7","8","9","X","4","5","6","-",
             "1","2","3","+","0",".","="};
             for (int i = 0; i < listtxtbtn.Length; i++)
@@ -48,8 +53,9 @@ namespace Tuan1TH
                 if (c == 0 && d == 5)
                 {
                     Console.WriteLine(d.ToString() + "so " + n.Text.ToString() + " " + c.ToString());
-                    Grid.SetColumnSpan(n, 2);
+                    
                     screenca.Children.Add(n,0, 5);
+                    Grid.SetColumnSpan(n, 2);
 
                 }
                 else if (c > 0 && d == 5)
@@ -141,6 +147,7 @@ namespace Tuan1TH
                 else
                 {
                     toantu = btn.Text.ToString();
+                    Txt.Text = n1 + " " + toantu;
                 }
                 
                 
