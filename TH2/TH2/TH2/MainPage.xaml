@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TH2.MainPage">
+
+    <StackLayout Margin="20">
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Thực Hành 2 - Nguyễn Hiếu Nghĩa_19521898" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Button CornerRadius="4" BackgroundColor="#2196F3" Text="Bài 1" x:Name="bai1" Clicked="bai1_Clicked"></Button>
+        <Button CornerRadius="4" BackgroundColor="#2196F3" x:Name="bai2" Text="Bài 2" Clicked="bai2_Clicked"></Button>
+        <Button CornerRadius="4" BackgroundColor="#2196F3" x:Name="bai3" Text="Bài 3" Clicked="bai3_Clicked"></Button>
+       
+    </StackLayout>
+
+</ContentPage>
