@@ -29,8 +29,17 @@ namespace TH2
         {
             Citylist = new List<City>();
             Citylist.Add(new City(1,  "hochiminh.jpg","Hồ Chí Minh" ));
+            Citylist.Add(new City(2, "hanoi.jpg", "Hà Nội"));
+            Citylist.Add(new City(3, "dalat.jpg", "Đà Lạt"));
+            Citylist.Add(new City(4, "danang.jpg", "Đà Nẵng"));
             InitializeComponent();
             dscity.ItemsSource=Citylist;
+        }
+
+        private void dscity_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            City loc = (City)dscity.SelectedItem;
+            Navigation.PushAsync(new HotelView(loc));
         }
     }
 }

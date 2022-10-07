@@ -15,3 +15,4 @@ D:\UIT_4\LapTrinhDaNenTang\BTTH\TH2\TH2\TH2\obj\Debug\netstandard2.0\TH2.pdb
 D:\UIT_4\LapTrinhDaNenTang\BTTH\TH2\TH2\TH2\obj\Debug\netstandard2.0\ref\TH2.dll
 D:\UIT_4\LapTrinhDaNenTang\BTTH\TH2\TH2\TH2\obj\Debug\netstandard2.0\Page1.xaml.g.cs
 D:\UIT_4\LapTrinhDaNenTang\BTTH\TH2\TH2\TH2\obj\Debug\netstandard2.0\Page2.xaml.g.cs
+D:\UIT_4\LapTrinhDaNenTang\BTTH\TH2\TH2\TH2\obj\Debug\netstandard2.0\HotelView.xaml.g.cs
