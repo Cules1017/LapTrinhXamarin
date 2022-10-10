@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TH2.HotelDetailView">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="{Binding Htimg}" WidthRequest="200" HeightRequest="200"></Image>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition  Height="Auto"></RowDefinition>
+                    <RowDefinition  Height="Auto"></RowDefinition>
+                    <RowDefinition  Height="Auto"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Row="0" Grid.Column="0" HorizontalTextAlignment="End" TextColor="PaleVioletRed">
+                    Tên Khách sạn:
+                </Label>
+                <Label Grid.Row="1" Grid.Column="0" HorizontalTextAlignment="End" TextColor="PaleVioletRed">
+                    Giá(1P/đêm):
+                </Label>
+                <Label Grid.Row="2" Grid.Column="0" HorizontalTextAlignment="End" TextColor="PaleVioletRed">
+                    Địa chỉ:
+                </Label>
+                <Label Grid.Row="3" Grid.Column="0" HorizontalTextAlignment="End" TextColor="PaleVioletRed">
+                    Mô tả chi tiết:
+                </Label>
+                <Label Grid.Row="0" Text="{Binding Htname}" Grid.Column="1" HorizontalTextAlignment="Start" TextColor="DimGray">
+                    
+                </Label>
+                <Label Grid.Row="1" Text="{Binding Htprice}" Grid.Column="1" HorizontalTextAlignment="Start" TextColor="DimGray">
+                </Label>
+                <Label Grid.Row="2" Text="{Binding Htaddress}" Grid.Column="1" HorizontalTextAlignment="Start" TextColor="DimGray">
+                </Label>
+                <Label Grid.Row="3" Text="{Binding Htdetail}" Grid.Column="1" HorizontalTextAlignment="Start" TextColor="DimGray">
+                </Label>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

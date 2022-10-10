@@ -1,15 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TH2.Page2">
+             x:Class="TH2.Page2"
+             Title="Thành phố">
     <ContentPage.Content>
-        <ListView x:Name="dscity" ItemSelected="dscity_ItemSelected">
+        <ListView x:Name="dscity" HasUnevenRows="True" ItemSelected="dscity_ItemSelected">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
                         <StackLayout Orientation="Horizontal">
-                            <Image Margin="4" WidthRequest="100" HeightRequest="50" Source="{Binding Cityimg}"></Image>
-                            <Label VerticalTextAlignment="Center" FontAttributes="Bold" HorizontalOptions="Center" Text="{Binding Cityname}"></Label>
+                            <Image Margin="4" WidthRequest="120" HeightRequest="100" Source="{Binding Cityimg}"></Image>
+                            <Label Margin="10" VerticalTextAlignment="Center" FontSize="Medium" FontAttributes="Bold" HorizontalOptions="Center" Text="{Binding Cityname}"></Label>
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>

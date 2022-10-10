@@ -26,11 +26,15 @@ namespace TH2
         public Page1()
         {
             DSkhoa = new List<khoa>();
-            DSkhoa.Add(new khoa("Khoa Khoa học máy tính"));
-            DSkhoa.Add(new khoa("Khoa Kỹ thuật phần mềm"));
-            DSkhoa.Add(new khoa("Khoa Hệ thống thông tin"));
-            DSkhoa.Add(new khoa("Khoa Khoa học kỹ thuật thông tin"));
-            DSkhoa.Add(new khoa("Khoa "));
+            DSkhoa.Add(new khoa("NGÀNH CÔNG NGHỆ THÔNG TIN"));
+            DSkhoa.Add(new khoa("NGÀNH HỆ THỐNG THÔNG TIN"));
+            DSkhoa.Add(new khoa("NGÀNH KHOA HỌC MÁY TÍNH"));
+            DSkhoa.Add(new khoa("NGÀNH KỸ THUẬT PHẦN MỀM"));
+            DSkhoa.Add(new khoa("NGÀNH KỸ THUẬT MÁY TÍNH"));
+            DSkhoa.Add(new khoa("NGÀNH MẠNG MÁY TÍNH & TRUYỀN THÔNG DỮ LIỆU"));
+            DSkhoa.Add(new khoa("NGÀNH AN TOÀN THÔNG TIN"));
+            DSkhoa.Add(new khoa("NGÀNH THƯƠNG MẠI ĐIỆN TỬ"));
+            DSkhoa.Add(new khoa("NGÀNH KHOA HỌC DỮ LIỆU"));
             string[] DS = { "1","2","3" } ;
             InitializeComponent();
             dskhoa.ItemsSource = DSkhoa;

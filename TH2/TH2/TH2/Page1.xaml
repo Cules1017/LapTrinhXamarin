@@ -8,8 +8,8 @@
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <StackLayout>
-                            <Label Text="{Binding Tenkhoa}"></Label>
+                        <StackLayout Margin="6">
+                            <Label HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Text="{Binding Tenkhoa}"></Label>
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>
