@@ -18,7 +18,7 @@
                     <ViewCell>
                         <StackLayout Orientation="Horizontal">
                             <Image Margin="4" WidthRequest="120" HeightRequest="100" Source="{Binding AFimg}"></Image>
-                            <Label Margin="10" VerticalTextAlignment="Center" FontSize="Medium" FontAttributes="Bold" HorizontalOptions="Center" Text="{Binding Cityname}"></Label>
+                                <Label Margin="10" VerticalTextAlignment="Center" FontSize="Medium" FontAttributes="Bold" HorizontalOptions="Center" Text="{Binding AFname}"></Label>
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>

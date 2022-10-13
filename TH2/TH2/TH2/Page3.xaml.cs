@@ -37,11 +37,13 @@ namespace TH2
             ListAF.Add(new AnimalFamily(3, "Họ Rùa", "R_00.jpg"));
             ListAF.Add(new AnimalFamily(4, "Họ Chim", "CM_00.jpg"));
             InitializeComponent();
+            dsanimal.ItemsSource = ListAF;
         }
 
         private void dsanimal_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-
+            AnimalFamily a = (AnimalFamily)dsanimal.SelectedItem;
+            Navigation.PushAsync(new AnimalView(a));
         }
     }
 }
