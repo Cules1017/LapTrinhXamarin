@@ -666,3 +666,12 @@ D:\UIT_4\LapTrinhDaNenTang\BTTH\TH2\TH2\TH2.Android\obj\Debug\120\res\drawable\m
 D:\UIT_4\LapTrinhDaNenTang\BTTH\TH2\TH2\TH2.Android\obj\Debug\120\res\drawable\meo_04.png
 D:\UIT_4\LapTrinhDaNenTang\BTTH\TH2\TH2\TH2.Android\obj\Debug\120\res\drawable\meo_03.jpg
 D:\UIT_4\LapTrinhDaNenTang\BTTH\TH2\TH2\TH2.Android\obj\Debug\120\res\drawable\meo_2.jpg
+D:\UIT_4\LapTrinhDaNenTang\BTTH\TH2\TH2\TH2.Android\obj\Debug\120\res\drawable\chim_4.jpg
+D:\UIT_4\LapTrinhDaNenTang\BTTH\TH2\TH2\TH2.Android\obj\Debug\120\res\drawable\chim_3.jpg
+D:\UIT_4\LapTrinhDaNenTang\BTTH\TH2\TH2\TH2.Android\obj\Debug\120\res\drawable\chim_2.jpg
+D:\UIT_4\LapTrinhDaNenTang\BTTH\TH2\TH2\TH2.Android\obj\Debug\120\res\drawable\chim_1.jpg
+D:\UIT_4\LapTrinhDaNenTang\BTTH\TH2\TH2\TH2.Android\obj\Debug\120\res\drawable\rua_4.jpg
+D:\UIT_4\LapTrinhDaNenTang\BTTH\TH2\TH2\TH2.Android\obj\Debug\120\res\drawable\rua_3.jpg
+D:\UIT_4\LapTrinhDaNenTang\BTTH\TH2\TH2\TH2.Android\obj\Debug\120\res\drawable\rua_2.jpg
+D:\UIT_4\LapTrinhDaNenTang\BTTH\TH2\TH2\TH2.Android\obj\Debug\120\res\drawable\rua_1.jpg
+D:\UIT_4\LapTrinhDaNenTang\BTTH\TH2\TH2\TH2.Android\obj\Debug\120\res\drawable\chim_5.jpg

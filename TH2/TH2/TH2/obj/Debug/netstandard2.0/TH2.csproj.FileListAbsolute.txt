@@ -20,3 +20,4 @@ D:\UIT_4\LapTrinhDaNenTang\BTTH\TH2\TH2\TH2\obj\Debug\netstandard2.0\Hoteldetail
 D:\UIT_4\LapTrinhDaNenTang\BTTH\TH2\TH2\TH2\obj\Debug\netstandard2.0\HotelDetailView.xaml.g.cs
 D:\UIT_4\LapTrinhDaNenTang\BTTH\TH2\TH2\TH2\obj\Debug\netstandard2.0\Page3.xaml.g.cs
 D:\UIT_4\LapTrinhDaNenTang\BTTH\TH2\TH2\TH2\obj\Debug\netstandard2.0\AnimalView.xaml.g.cs
+D:\UIT_4\LapTrinhDaNenTang\BTTH\TH2\TH2\TH2\obj\Debug\netstandard2.0\AnimalDetailView.xaml.g.cs

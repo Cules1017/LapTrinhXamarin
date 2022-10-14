@@ -45,5 +45,12 @@ namespace TH2
             AnimalFamily a = (AnimalFamily)dsanimal.SelectedItem;
             Navigation.PushAsync(new AnimalView(a));
         }
+
+        private void SearchBar_SearchButtonPressed(object sender, EventArgs e)
+        {
+            string queryString=searchbar.Text;
+            var normalizedQuery = queryString?.ToLower() ?? "";
+            dsanimal.ItemsSource= ListAF.Where(f => f.AFname.ToLowerInvariant().Contains(normalizedQuery)).ToList();
+        }
     }
 }

@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TH2.Page3">
+             x:Class="TH2.Page3"
+             Title="Tra Cứu Động Vật">
     <ContentPage.Content>
         <StackLayout>
         <SearchBar Placeholder="Hãy nhập để tìm tên loài..."
@@ -11,7 +12,9 @@
            TextTransform="Lowercase"
            HorizontalTextAlignment="Center"
            FontSize="Medium"
-           FontAttributes="Italic" />
+                   x:Name="searchbar"
+           FontAttributes="Italic" 
+                   SearchButtonPressed="SearchBar_SearchButtonPressed"/>
         <ListView x:Name="dsanimal" HasUnevenRows="True" ItemSelected="dsanimal_ItemSelected">
             <ListView.ItemTemplate>
                 <DataTemplate>

@@ -3,6 +3,17 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TH2.AnimalView">
     <ContentPage.Content>
+        <StackLayout>
+            <SearchBar Placeholder="Hãy nhập tên hoặc mô tả của con vật bạn muốn tìm..."
+           CancelButtonColor="Blue"
+           PlaceholderColor="Gray"
+           TextColor="Orange"
+           TextTransform="Lowercase"
+           HorizontalTextAlignment="Center"
+           FontSize="Medium"
+                   x:Name="searchbarcv"
+           FontAttributes="Italic" 
+                   SearchButtonPressed="searchbarcv_SearchButtonPressed"/>
         <ListView x:Name="listanimal" HasUnevenRows="True" ItemSelected="listanimal_ItemSelected">
             <ListView.ItemTemplate>
                 <DataTemplate>
@@ -19,6 +30,6 @@
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
-        </ListView>
+        </ListView></StackLayout>
     </ContentPage.Content>
 </ContentPage>
