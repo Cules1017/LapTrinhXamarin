@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TH3.Page3">
+    <ContentPage.Content>
+        <StackLayout>
+            <Picker Title="Select a Book"
+                    x:Name="aaa1"
+        TitleColor="Red"
+        ItemDisplayBinding="{Binding CountryName}"
+                    SelectedIndexChanged="aaa1_SelectedIndexChanged" />
+            <ListView  x:Name="GroupedView11111"
+                   
+                   
+                   
+                   HasUnevenRows="True"
+                   >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout  Orientation="Horizontal">
+                                <Image WidthRequest="120" HeightRequest="120" Source="{Binding CtyImg}"></Image>
+                                <Label Margin="50" FontSize="Medium" Text="{Binding CityName}" />
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+                
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

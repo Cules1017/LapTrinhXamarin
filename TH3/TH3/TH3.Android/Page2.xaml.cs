@@ -21,23 +21,27 @@ namespace TH3.Droid
         void ListBookInit()
         {
             books = new List<Book>();
-            books.Add(new Book { TitleBook = "", ImgBook = ".jpg"});
-            books.Add(new Book { TitleBook = "", ImgBook = ".jpg" });
-            books.Add(new Book { TitleBook = "", ImgBook = ".jpg" });
-            books.Add(new Book { TitleBook = "", ImgBook = ".jpg" });
-            books.Add(new Book { TitleBook = "", ImgBook = ".jpg" });
+            books.Add(new Book { TitleBook = "Cô Gái Có Râu", ImgBook = ".jpg"});
+            books.Add(new Book { TitleBook = "Doraemon", ImgBook = ".jpg" });
+            books.Add(new Book { TitleBook = "Conan", ImgBook = ".jpg" });
+            books.Add(new Book { TitleBook = "Truyện Ma Có Thật", ImgBook = ".jpg" });
+            books.Add(new Book { TitleBook = "Sọ Dừa", ImgBook = ".jpg" });
+
+            aaa.ItemsSource = books;
         }
 
-        public Book GetBook(string title)
+        public void GetBook(string title)
         {
             foreach (var book in books)
             {
                 if (book.TitleBook == title){
-                    return book;
+                    List <Book> lb= new List<Book>();
+                    lb.Add(book);
+                    listB.ItemsSource = lb;
                 }
                 
             }
-            return null;
+            
         }
         public Page2()
         {
@@ -48,7 +52,11 @@ namespace TH3.Droid
 
         private void Picker_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            var pic=(Picker)sender;
+            int picidx=pic.SelectedIndex;
+            if (picidx >= 0) { 
+                GetBook(pic.Items[picidx].ToString());
+            }
         }
     }
 }

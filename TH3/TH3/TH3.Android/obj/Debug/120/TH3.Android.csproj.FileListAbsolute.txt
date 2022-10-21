@@ -640,3 +640,10 @@ D:\UIT_4\LapTrinhDaNenTang\BTTH\TH3\TH3\TH3.Android\obj\Debug\120\res\drawable\c
 D:\UIT_4\LapTrinhDaNenTang\BTTH\TH3\TH3\TH3.Android\obj\Debug\120\res\drawable\hcm.jpg
 D:\UIT_4\LapTrinhDaNenTang\BTTH\TH3\TH3\TH3.Android\obj\Debug\120\res\drawable\dn.jpg
 D:\UIT_4\LapTrinhDaNenTang\BTTH\TH3\TH3\TH3.Android\obj\Debug\120\res\drawable\hn.jpg
+D:\UIT_4\LapTrinhDaNenTang\BTTH\TH3\TH3\TH3.Android\obj\Debug\120\Page2.xaml.g.cs
+D:\UIT_4\LapTrinhDaNenTang\BTTH\TH3\TH3\TH3.Android\obj\Debug\120\XamlC.stamp
+D:\UIT_4\LapTrinhDaNenTang\BTTH\TH3\TH3\TH3.Android\obj\Debug\120\res\drawable\cg2.jpg
+D:\UIT_4\LapTrinhDaNenTang\BTTH\TH3\TH3\TH3.Android\obj\Debug\120\res\drawable\so2.jpg
+D:\UIT_4\LapTrinhDaNenTang\BTTH\TH3\TH3\TH3.Android\obj\Debug\120\res\drawable\tr2.jpg
+D:\UIT_4\LapTrinhDaNenTang\BTTH\TH3\TH3\TH3.Android\obj\Debug\120\res\drawable\co2.jpg
+D:\UIT_4\LapTrinhDaNenTang\BTTH\TH3\TH3\TH3.Android\obj\Debug\120\res\drawable\do2.jpg

@@ -22,7 +22,12 @@ namespace TH3
 
         private void bai2_Clicked(object sender, EventArgs e)
         {
+            Navigation.PushAsync(new Page2());
+        }
 
+        private void bai3_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Page3());
         }
     }
 }

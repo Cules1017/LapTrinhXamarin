@@ -8,8 +8,8 @@
             <Label Text="Thực Hành Buổi 3 - Nguyễn Hiếu Nghĩa -19521898" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
         </Frame>
         <Button Margin="5" BackgroundColor="#2196F3" CornerRadius="15" x:Name="bai1" Clicked="bai1_Clicked" Text="Bài 1"></Button>
-        <Button Margin="5" BackgroundColor="#2196F3" CornerRadius="15" x:Name="bai2" Clicked="bai2_Clicked" Text="Bài 1"></Button>
-        <Button Margin="5" BackgroundColor="#2196F3" CornerRadius="15" x:Name="bai3" Text="Bài 1"></Button>
+        <Button Margin="5" BackgroundColor="#2196F3" CornerRadius="15" x:Name="bai2" Clicked="bai2_Clicked" Text="Bài 2"></Button>
+        <Button Margin="5" BackgroundColor="#2196F3" CornerRadius="15" x:Name="bai3" Clicked="bai3_Clicked" Text="Bài 3"></Button>
     </StackLayout>
 
 </ContentPage>

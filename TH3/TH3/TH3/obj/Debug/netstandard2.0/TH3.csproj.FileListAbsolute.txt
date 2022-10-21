@@ -14,3 +14,5 @@ D:\UIT_4\LapTrinhDaNenTang\BTTH\TH3\TH3\TH3\obj\Debug\netstandard2.0\refint\TH3.
 D:\UIT_4\LapTrinhDaNenTang\BTTH\TH3\TH3\TH3\obj\Debug\netstandard2.0\TH3.pdb
 D:\UIT_4\LapTrinhDaNenTang\BTTH\TH3\TH3\TH3\obj\Debug\netstandard2.0\ref\TH3.dll
 D:\UIT_4\LapTrinhDaNenTang\BTTH\TH3\TH3\TH3\obj\Debug\netstandard2.0\Page1.xaml.g.cs
+D:\UIT_4\LapTrinhDaNenTang\BTTH\TH3\TH3\TH3\obj\Debug\netstandard2.0\Page2.xaml.g.cs
+D:\UIT_4\LapTrinhDaNenTang\BTTH\TH3\TH3\TH3\obj\Debug\netstandard2.0\Page3.xaml.g.cs

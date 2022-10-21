@@ -7,7 +7,7 @@
             <Picker Title="Select a Book"
                     x:Name="aaa"
         TitleColor="Red"
-        ItemDisplayBinding="{Binding Name}"
+        ItemDisplayBinding="{Binding TitleBook}"
                     SelectedIndexChanged="Picker_SelectedIndexChanged" />
             <ListView x:Name="listB" >
                 <ListView.ItemTemplate>
