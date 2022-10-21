@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TH3.Page1">
+    <ContentPage.Content>
+        <ListView  x:Name="GroupedView"
+                   GroupDisplayBinding="{Binding CountryName}"
+                   GroupShortNameBinding="{Binding CountryName}"
+                   IsGroupingEnabled="true"
+                   HasUnevenRows="True"
+                   >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                    <StackLayout  Orientation="Horizontal">
+                            <Image WidthRequest="120" HeightRequest="120" Source="{Binding CtyImg}"></Image>
+                        <Label Margin="50" FontSize="Medium" Text="{Binding CityName}" />
+                    </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+            <ListView.GroupHeaderTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Label FontSize="Large" Text="{Binding CountryName}" FontAttributes="Bold" TextColor="HotPink"></Label>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.GroupHeaderTemplate>
+        </ListView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,16 @@
+D:\UIT_4\LapTrinhDaNenTang\BTTH\TH3\TH3\TH3\obj\Debug\netstandard2.0\TH3.csproj.AssemblyReference.cache
+D:\UIT_4\LapTrinhDaNenTang\BTTH\TH3\TH3\TH3\obj\Debug\netstandard2.0\TH3.GeneratedMSBuildEditorConfig.editorconfig
+D:\UIT_4\LapTrinhDaNenTang\BTTH\TH3\TH3\TH3\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\UIT_4\LapTrinhDaNenTang\BTTH\TH3\TH3\TH3\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\UIT_4\LapTrinhDaNenTang\BTTH\TH3\TH3\TH3\obj\Debug\netstandard2.0\TH3.AssemblyInfoInputs.cache
+D:\UIT_4\LapTrinhDaNenTang\BTTH\TH3\TH3\TH3\obj\Debug\netstandard2.0\TH3.AssemblyInfo.cs
+D:\UIT_4\LapTrinhDaNenTang\BTTH\TH3\TH3\TH3\obj\Debug\netstandard2.0\TH3.csproj.CoreCompileInputs.cache
+D:\UIT_4\LapTrinhDaNenTang\BTTH\TH3\TH3\TH3\bin\Debug\netstandard2.0\TH3.deps.json
+D:\UIT_4\LapTrinhDaNenTang\BTTH\TH3\TH3\TH3\bin\Debug\netstandard2.0\TH3.dll
+D:\UIT_4\LapTrinhDaNenTang\BTTH\TH3\TH3\TH3\bin\Debug\netstandard2.0\TH3.pdb
+D:\UIT_4\LapTrinhDaNenTang\BTTH\TH3\TH3\TH3\obj\Debug\netstandard2.0\XamlC.stamp
+D:\UIT_4\LapTrinhDaNenTang\BTTH\TH3\TH3\TH3\obj\Debug\netstandard2.0\TH3.dll
+D:\UIT_4\LapTrinhDaNenTang\BTTH\TH3\TH3\TH3\obj\Debug\netstandard2.0\refint\TH3.dll
+D:\UIT_4\LapTrinhDaNenTang\BTTH\TH3\TH3\TH3\obj\Debug\netstandard2.0\TH3.pdb
+D:\UIT_4\LapTrinhDaNenTang\BTTH\TH3\TH3\TH3\obj\Debug\netstandard2.0\ref\TH3.dll
+D:\UIT_4\LapTrinhDaNenTang\BTTH\TH3\TH3\TH3\obj\Debug\netstandard2.0\Page1.xaml.g.cs
