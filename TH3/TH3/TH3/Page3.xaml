@@ -4,7 +4,7 @@
              x:Class="TH3.Page3">
     <ContentPage.Content>
         <StackLayout>
-            <Picker Title="Select a Book"
+            <Picker Title="Select Nation"
                     x:Name="aaa1"
         TitleColor="Red"
         ItemDisplayBinding="{Binding CountryName}"

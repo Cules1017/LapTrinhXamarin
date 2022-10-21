@@ -28,6 +28,7 @@ namespace TH3
             JP.Add(new City { CityName = "Kyoto", CtyImg = "kt.jpg" });
             JP.Add(new City { CityName = "Osaka", CtyImg = "os.jpg" });
             JP.Add(new City { CityName = "Hiroshima", CtyImg = "hr.jpg" });
+            Country ALL = new Country("ALL");
             List<City> CityList = new List<City>();
             CityList.Add(new City { CityName = "Hà Nội", CtyImg = "hn.jpg" });
             CityList.Add(new City { CityName = "Đà Nẵng", CtyImg = "dn.jpg" });
@@ -42,6 +43,7 @@ namespace TH3
             CountryList1 = new List<Country>();
             CountryList1.Add(VN);
             CountryList1.Add(JP);
+            CountryList1.Add(ALL);
             aaa1.ItemsSource = CountryList1;
 
 
@@ -57,6 +59,18 @@ namespace TH3
                     lb.Add(new City { CityName = "Osaka", CtyImg = "os.jpg" });
                     lb.Add(new City { CityName = "Hiroshima", CtyImg = "hr.jpg" });
                 }
+                else if(title=="ALL")
+            {
+                lb.Add(new City { CityName = "ToKyo", CtyImg = "tk.jpg" });
+                lb.Add(new City { CityName = "Kyoto", CtyImg = "kt.jpg" });
+                lb.Add(new City { CityName = "Osaka", CtyImg = "os.jpg" });
+                lb.Add(new City { CityName = "Hiroshima", CtyImg = "hr.jpg" });
+                lb.Add(new City { CityName = "Hà Nội", CtyImg = "hn.jpg" });
+                lb.Add(new City { CityName = "Đà Nẵng", CtyImg = "dn.jpg" });
+                lb.Add(new City { CityName = "TP Hồ Chí Minh", CtyImg = "hcm.jpg" });
+                lb.Add(new City { CityName = "Hải Phòng", CtyImg = "hp.jpg" });
+                lb.Add(new City { CityName = "Cần Thơ", CtyImg = "ct.jpg" });
+            }
                 else
                 {
                     lb.Add(new City { CityName = "Hà Nội", CtyImg = "hn.jpg" });
