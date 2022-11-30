@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab4.Views.StudentInfo.AddStudent">
+    <ContentPage.Content>
+        <StackLayout HeightRequest="60" Padding="10">
+            <Entry x:Name="EntStudentName" Placeholder="Tên Sinh Viên"/>
+            <Entry x:Name="EntStudentYear" Placeholder="Sinh viên năm (năm)"/>
+            <Entry x:Name="EntStudentFaculty" Placeholder="Sinh viên ngành"/>
+            <Button x:Name="btnAddNewStudent" Text="Thêm" Clicked="btnAddNewStudent_Clicked" CornerRadius="2"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

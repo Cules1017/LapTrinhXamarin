@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab4.Views.StudentInfo.ListStudent"
+             Title="Student">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Thêm" x:Name="TIAddStudent" Clicked="TIAddStudent_Clicked"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout>
+            <SearchBar Placeholder="Tìm sinh viên" TextChanged="SearchBar_TextChanged"/>
+            
+            <CollectionView x:Name="CVStudent" SelectionMode="Single">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <SwipeView>
+                            <SwipeView.RightItems>
+                                <SwipeItems SwipeBehaviorOnInvoked="RemainOpen">
+                                    <SwipeItem Text="DELETE" BackgroundColor="Red"
+                                               x:Name="SWDelete"
+                                               CommandParameter="{Binding .}"
+                                               Invoked="SWDelete_Invoked"/>
+                                    <SwipeItem Text="EDIT" BackgroundColor="LightGreen"
+                                               x:Name="SWEdit"
+                                               CommandParameter="{Binding .}"
+                                               Invoked="SWEdit_Invoked"/>
+                                </SwipeItems>
+                            </SwipeView.RightItems>
+                            <Grid HeightRequest="60">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="5*"/>
+                                </Grid.ColumnDefinitions>
+                                <Label Text="{Binding StudentId}" FontAttributes="Bold" FontSize="Medium"
+                                       VerticalOptions="Center" HorizontalOptions="Center"
+                                       Grid.Column="0" Grid.Row="0" Grid.RowSpan="2"/>
+                                <Label Text="{Binding StudentName}" FontAttributes="Bold" FontSize="Medium"
+                                       VerticalOptions="Center" Grid.Column="1" Grid.Row="0"/>
+                                <Label FontSize="Medium" Grid.Column="1" Grid.Row="1">
+                                    <Label.Text>
+                                        <MultiBinding StringFormat="{}Sinh viên năm {0} tại {1}">
+                                        <Binding Path="StudentYear" />
+                                        <Binding Path="StudentFaculty" />
+                                        </MultiBinding>
+                                    </Label.Text>
+                                </Label>
+                            </Grid>
+                        </SwipeView>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>

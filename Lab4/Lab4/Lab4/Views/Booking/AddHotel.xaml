@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab4.Views.Booking.AddHotel">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="logo.png" HeightRequest="100"/>
+            <Grid Padding="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+                <Label Text="Tên KS:" Grid.Column="0" Grid.Row="0"
+                       FontSize="Medium" VerticalOptions="Center"/>
+                <Entry x:Name="EntHotelName" Grid.Column="1" Grid.Row="0"/>
+                <Label Text="Hình KS:" Grid.Column="0" Grid.Row="1"
+                       FontSize="Medium" VerticalOptions="Center"/>
+                <Entry x:Name="EntHotelImg" Grid.Column="1" Grid.Row="1"/>
+                <Label Text="Thành phố:" Grid.Column="0" Grid.Row="2"
+                       FontSize="Medium" VerticalOptions="Center"/>
+                <Picker x:Name="PkCityName" Title="Chọn thành phố"
+                        ItemDisplayBinding="{Binding CityName}"
+                        Grid.Column="1" Grid.Row="2"/>
+                <Button x:Name="btnAddNewHotel" Text="LƯU" Clicked="btnAddNewHotel_Clicked"
+                        Grid.Row="3" Grid.ColumnSpan="2" HorizontalOptions="Center"/>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab4.MainPage"
+             >
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196f3" Padding="24" CornerRadius="0">
+            <Label Text="IE307.N11.CNCL                                                THUC HANH 4                            Nguyễn Hiếu Nghĩa - 19520284" HorizontalTextAlignment="Center" TextColor="White" FontSize="24"/>
+        </Frame>
+
+        <Button x:Name="Bai1" Text="Booking" Clicked="Bai1_Clicked" BackgroundColor="#2196f3" CornerRadius="4" Margin="10"/>
+        <Button x:Name="Bai2" Text="Student Infomation" Clicked="Bai2_Clicked" BackgroundColor="#2196f3" CornerRadius="4" Margin="10"/>
+    </StackLayout>
+
+</ContentPage>

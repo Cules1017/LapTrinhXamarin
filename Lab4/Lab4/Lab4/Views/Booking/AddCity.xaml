@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab4.Views.Booking.AddCity">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="logo.png" HeightRequest="100"/>
+            <Grid Padding="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+                <Label Text="Tên TP:" Grid.Column="0" Grid.Row="0"
+                       FontSize="Medium" VerticalOptions="Center"/>
+                <Entry x:Name="EntCityName" Grid.Column="1" Grid.Row="0"/>
+                <Label Text="Hình TP:" Grid.Column="0" Grid.Row="1"
+                       FontSize="Medium" VerticalOptions="Center"/>
+                <Entry x:Name="EntCityImg" Grid.Column="1" Grid.Row="1"/>
+                <Button x:Name="btnAddNewCity" Text="LƯU" Clicked="btnAddNewCity_Clicked"
+                        Grid.Row="2" Grid.ColumnSpan="2" HorizontalOptions="Center"/>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

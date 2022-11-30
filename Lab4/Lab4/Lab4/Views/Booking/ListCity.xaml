@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab4.Views.Booking.ListCity"
+             Title="Thành Phố">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="THÊM" x:Name="TIAddCity" Clicked="TIAddCity_Clicked"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="logo.png" HeightRequest="100"/>
+
+            <CollectionView x:Name="CVCity" SelectionMode="Single" SelectionChanged="CVCity_SelectionChanged">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <SwipeView>
+                            <SwipeView.RightItems>
+                                <SwipeItems SwipeBehaviorOnInvoked="RemainOpen">
+                                    <SwipeItem Text="XÓA" BackgroundColor="Red"
+                                               x:Name="SWDelete"
+                                               CommandParameter="{Binding .}"
+                                               Invoked="SWDelete_Invoked"/>
+                                    <SwipeItem Text="SỬA" BackgroundColor="LightGreen"
+                                               x:Name="SWEdit"
+                                               CommandParameter="{Binding .}"
+                                               Invoked="SWEdit_Invoked"/>
+                                </SwipeItems>
+                            </SwipeView.RightItems>
+                            <Grid HeightRequest="60" Padding="10">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="2*"/>
+                                </Grid.ColumnDefinitions>
+                                <Image Source="{Binding CityImageUrl}" Grid.Column="0" Grid.Row="0"/>
+                                <Label Text="{Binding CityName}" FontAttributes="Bold" FontSize="Large"
+                                       VerticalOptions="Center" Grid.Column="1" Grid.Row="0"/>
+                            </Grid>
+                        </SwipeView>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
