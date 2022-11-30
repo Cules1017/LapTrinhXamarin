@@ -6,7 +6,7 @@
 
     <StackLayout>
         <Frame BackgroundColor="#2196f3" Padding="24" CornerRadius="0">
-            <Label Text="IE307.N11.CNCL                                                THUC HANH 4                            Nguyễn Hiếu Nghĩa - 19520284" HorizontalTextAlignment="Center" TextColor="White" FontSize="24"/>
+            <Label Text="IE307.N11.CNCL                                                THUC HANH 4                            Nguyễn Hiếu Nghĩa - 19521898" HorizontalTextAlignment="Center" TextColor="White" FontSize="24"/>
         </Frame>
 
         <Button x:Name="Bai1" Text="Booking" Clicked="Bai1_Clicked" BackgroundColor="#2196f3" CornerRadius="4" Margin="10"/>
